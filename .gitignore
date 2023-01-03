@@ -1,0 +1,14 @@
+node_modules
+.env
+GOOGLE_CRED.json
+**/.DS_Store
+src/jsDocs/fonts
+src/jsDocs/scripts
+src/jsDocs/styles
+src/jsDocs/*.html
+
+
+
+
+
+

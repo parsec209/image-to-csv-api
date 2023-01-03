@@ -1,0 +1,435 @@
+[
+  {
+    "name": "GIF.GIF",
+    "idPhrase": "564",
+    "idPhrase2": "Service Fee",
+    "header": [
+      { "value" : "Date" },
+      { "value" : "Description" }
+    ],
+    "dataRows": [
+      { "dataCells": [ 
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "today", 
+            "dateFormat": "DD-MMM-YY"
+          }
+        ]},
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "topPhrase", 
+            "phraseOrValue": "DESCRIPTION"
+          }
+        ]}
+      ]}
+    ]
+  },
+
+
+  {
+    "name": "PDF_editable.pdf",
+    "idPhrase": "Expense Report",
+    "header": [
+      { "value" : "Invoice #" },
+      { "value" : "Custom Value" }
+    ],
+    "dataRows": [
+      { "dataCells": [ 
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "topPhrase", 
+            "phraseOrValue": "Invoice #"
+          }
+        ]},
+        {
+          "cellSects": [
+            {
+              "searchOrInputMethod": "customValue", 
+              "phraseOrValue": "test"
+            },
+            {
+              "searchOrInputMethod": "customValue", 
+              "phraseOrValue": "123"
+            }
+        ]}
+      ]},
+      { "dataCells": [ 
+        { "cellSects": [
+          {}
+        ]},
+        {
+          "cellSects": [
+            {
+              "searchOrInputMethod": "customValue", 
+              "phraseOrValue": "test",
+              "appendChars": " "
+            },
+            {
+              "searchOrInputMethod": "customValue", 
+              "phraseOrValue": "456"
+            }
+        ]}
+      ]}
+    ]
+  },
+
+
+  {
+    "name": "PDF_editable.pdf--cellValue_test",
+    "idPhrase": "Your City, ST 12345",
+    "header": [
+      { "value" : "1" },
+      { "value" : "2" },
+      { "value" : "3" },
+      { "value" : "4" },
+      { "value" : "5" },
+      { "value" : "6" },
+      { "value" : "7" },
+      { "value" : "8" },
+      { "value" : "9" },
+      { "value" : "10" }
+    ],
+    "dataRows": [
+      { "dataCells": [ 
+        { "cellSects": [  
+          {
+            "searchOrInputMethod": "customValue",
+            "phraseOrValue": "2014-08-02",
+            "dateFormat": "MM/DD/YYYY",
+            "daysAdded": 10
+          },
+          {
+            "searchOrInputMethod": "customValue",
+            "phraseOrValue": "8/14",
+            "dateFormat": "MM-DD-YYYY",
+            "daysAdded": 10
+          },
+          {
+            "searchOrInputMethod": "customValue",
+            "phraseOrValue": "August 2005",
+            "dateFormat": "YY-MM-DD",
+            "daysAdded": 10
+          },
+          {
+            "searchOrInputMethod": "customValue",
+            "phraseOrValue": "07-10-2016",
+            "dateFormat": "Y YY YYY, YYYY, YYYYY-D-DD-DDD-DDDD-DDDDD/M/MM/MMM/MMMM/MMMMM",
+            "daysAdded": 10
+          }
+        ]},
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "customValue",
+            "phraseOrValue": "testDate",
+            "dateFormat": "YYYY-MM-DD",
+            "daysAdded": 2
+          },
+          {
+            "searchOrInputMethod": "pattern",
+            "phraseCount": 2,
+            "phraseOrValue": "[a-zA-z]+ \\#\\d{1,3}(?= )"
+          },
+          {
+            "searchOrInputMethod": "pattern",
+            "phraseCount": 3,
+            "phraseOrValue": "[a-zA-z]+ \\#\\d{1,3}(?= )"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseOrValue": "123"   
+          }
+        ]},
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseOrValue": "Adjustments"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseOrValue": "Qty"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseOrValue": "dgpdhif"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseOrValue": "Item"
+          }
+        ]},
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseOrValue": "Description"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseOrValue": "123"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseOrValue": "Expense Report"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseOrValue": "Employee name"
+          }
+        ]},
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseOrValue": "Date"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseOrValue": "(123) 456-7890"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseOrValue": "Category"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseOrValue": "ffgjidp,"
+          }
+        ]},
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "pattern",
+            "phraseOrValue": "[a-zA-Z]{4}\\s[a-zA-Z]{7}",
+            "appendChars": "---238HR"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseOrValue": "Due date",
+            "dateFormat": "DD-MMM-YYYY"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseOrValue": "Flight #123",
+            "appendChars": "  / @ "
+          },
+          {
+            "searchOrInputMethod": "customValue",
+            "phraseOrValue": "test value"
+          }
+        ]},
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "today"      
+          }
+        ]},
+        { "cellSects": [
+          {}
+        ]},
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "leftPhrase", 
+            "phraseCount": 9,
+            "phraseOrValue": "Payable" 
+          },
+          {
+            "searchOrInputMethod": "leftPhrase", 
+            "phraseCount": 19,
+            "phraseOrValue": "Unit" 
+          },
+          {
+            "searchOrInputMethod": "leftPhrase", 
+            "phraseCount": 7,
+            "phraseOrValue": "123 Your Street" 
+          },
+          {
+            "searchOrInputMethod": "leftPhrase", 
+            "phraseCount": 9,
+            "phraseOrValue": "Subtotal" 
+          }
+        ]},
+        { "cellSects": [
+
+          {
+            "searchOrInputMethod": "leftPhrase", 
+            "phraseCount": 20,
+            "phraseOrValue": "Category" 
+          },
+          
+          {
+            "searchOrInputMethod": "topPhrase", 
+            "phraseCount": 9,
+            "phraseOrValue": "Submitted" 
+          },
+          {
+            "searchOrInputMethod": "topPhrase", 
+            "phraseOrValue": "01/01/2000" 
+          },
+          {
+            "searchOrInputMethod": "topPhrase", 
+            "phraseCount": 8,
+            "phraseOrValue": "Invoice #" 
+          }
+        ]}
+      ]}
+    ]
+  },
+  
+
+  {
+    "name": "TIFF.tiff",
+    "idPhrase": "Tagged Image File Format",
+    "idPhrase2": "Nonexistant phrase",
+    "header": [
+      { "value" : "h1" }
+    ],
+    "dataRows": [
+      { "dataCells": [ 
+        { "cellSects": [
+          {}
+        ]}
+      ]}
+    ]
+  },
+
+
+  {
+    "name": "GIF.GIF--cellValue_test",
+    "idPhrase": "[Street Address]",
+    "header": [
+      { "value" : "1" },
+      { "value" : "2" },
+      { "value" : "3" },
+      { "value" : "4" }
+    ],
+    "dataRows": [
+      { "dataCells": [ 
+        { "cellSects": [  
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "stringType": "word",
+            "phraseOrValue": "Pho"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "stringType": "word",
+            "phraseOrValue": "Phone:"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseCount": 5,
+            "stringType": "word",
+            "phraseOrValue": "(000)"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseCount": 4,
+            "stringType": "word",
+            "phraseOrValue": "TAX RATE"
+          }
+        ]},
+        { "cellSects": [  
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "stringType": "phrase",
+            "phraseOrValue": "Phone: ("
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "stringType": "phrase",
+            "phraseOrValue": "BILL TO"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseCount": 4,
+            "stringType": "phrase",
+            "phraseOrValue": "Labor:"
+          },
+          {
+            "searchOrInputMethod": "leftPhrase",
+            "phraseCount": 6,
+            "stringType": "phrase",
+            "phraseOrValue": "SUBTOTAL"
+          }
+        ]},
+        { "cellSects": [  
+          {
+            "searchOrInputMethod": "topPhrase",
+            "stringType": "word",
+            "phraseOrValue": "ST"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseCount": 2,
+            "stringType": "word",
+            "phraseOrValue": "IPTIO"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseCount": 1,
+            "stringType": "word",
+            "phraseOrValue": "ATE"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseCount": 2,
+            "stringType": "word",
+            "phraseOrValue": "ddress]"
+          }
+        ]},
+        { "cellSects": [  
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseCount": 2,
+            "stringType": "phrase",
+            "phraseOrValue": "ddress"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "stringType": "phrase",
+            "phraseOrValue": "DATE"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseCount": 3,
+            "stringType": "phrase",
+            "phraseOrValue": "INVOICE #"
+          },
+          {
+            "searchOrInputMethod": "topPhrase",
+            "phraseCount": 3,
+            "stringType": "phrase",
+            "phraseOrValue": "Name]"
+          }
+        ]}
+      ]}
+    ]
+  },
+
+  {
+    "name": "TIF.tif",
+    "idPhrase": "Multipage",
+    "header": [
+      { "value" : "h1" }
+    ],
+    "dataRows": [
+      { "dataCells": [ 
+        { "cellSects": [
+          {
+            "searchOrInputMethod": "pattern",
+            "phraseOrValue": "Page \\d"
+          },
+          {
+            "searchOrInputMethod": "pattern",
+            "phraseCount": 12,
+            "phraseOrValue": "Page \\d"
+          },
+          {
+            "searchOrInputMethod": "pattern",
+            "phraseOrValue": "Example\nPage 1"
+          },
+          {
+            "searchOrInputMethod": "pattern",
+            "phraseOrValue": "jipoihdgijp"
+          }
+        ]}
+      ]}
+    ]
+  }
+]

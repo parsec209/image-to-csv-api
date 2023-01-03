@@ -1,0 +1,24 @@
+GOOGLE_CRED={{Google Cloud API key}} 
+    # DURING PRODUCTION: Paste your API key JSON object into this env variable in your cloud hosting service. A GOOGLE_CRED.json file will be auto-generated during deployment.
+    # DURING DEV/TESTING: Create file named GOOGLE_CRED.json inside root folder and paste API key JSON object into it. You will not need to use this GOOGLE_CRED env variable.
+
+GOOGLE_APPLICATION_CREDENTIALS=./GOOGLE_CRED.json
+    # Use the exact value shown above; this var will reference the API key JSON object within the GOOGLE_CRED.json file.  
+
+SESSION_SECRET={{Express sessions secret}}
+
+MONGODB_URI={{MongoDB connection string}}
+
+STORAGE_BUCKET={{Google Cloud Storage bucket name}}
+
+PAPERTRAIL_HOST={{Host for the Solarwinds Papertrail transport}} 
+
+PAPERTRAIL_PORT={{Port for the Solarwinds Papertrail transport}}
+
+SENDGRID_API_KEY={{Twilio Sendgrid API key}}
+
+RESET_EMAIL={{Email address used by Sendgrid to send the password reset emails}}
+
+DEV_HOST={{optional, only for setting up SwaggerUI during dev, i.e. localhost}}
+
+DEV_PORT={{optional, only for setting up SwaggerUI during dev, i.e. 3000}}
