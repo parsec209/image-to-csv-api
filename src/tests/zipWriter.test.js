@@ -71,7 +71,7 @@ describe('creating and providing access to zipped CSV files in GCP', () => {
   })
   test('url created for zip file download', async () => {
     const zipWriter = new ZipWriter(user, fileBatchID)
-    await expect(zipWriter.getURL()).resolves.toEqual(expect.stringContaining(`https://storage.googleapis.com/batches-6293-dev/${user._id}/${fileBatchID}/downloads/CSVFiles.zip`))
+    await expect(zipWriter.getURL()).resolves.toEqual(expect.stringContaining(`https://storage.googleapis.com/batches-62935-dev/${user._id}/${fileBatchID}/downloads/CSVFiles.zip`))
   })
 })
 

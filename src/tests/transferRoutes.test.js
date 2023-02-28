@@ -131,7 +131,7 @@ describe('POST /api/transfers/write', () => {
       .send({
         fileBatchID
       })
-    expect(response.body).toEqual(expect.stringContaining(`https://storage.googleapis.com/batches-6293-dev/${userID}/${fileBatchID}/downloads/CSVFiles.zip`))
+    expect(response.body).toEqual(expect.stringContaining(`https://storage.googleapis.com/batches-62935-dev/${userID}/${fileBatchID}/downloads/CSVFiles.zip`))
     expect(response.statusCode).toBe(200)
   })
   test('handles request body validation errors (invalid fileBatchID)', async () => {
