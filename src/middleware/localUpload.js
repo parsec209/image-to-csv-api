@@ -4,8 +4,8 @@ const InputError = require('../util/inputError')
 
 const upload = multer({
   storage: multer.memoryStorage(),
-  limits: {fileSize: 10 * 1024 * 1024},
-}).array('myFiles', 20)
+  limits: {fileSize: 30 * 1024 * 1024},
+}).array('myFiles', 40)
 
 
 function localUpload (req, res, next) {
