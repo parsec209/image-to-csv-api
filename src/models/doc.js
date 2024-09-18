@@ -23,7 +23,7 @@ const cellSectSchema = new mongoose.Schema({
   phraseOrValue: {
     type: String,
     trim: true,
-    maxLength: 100,    
+    maxLength: 300,    
     required: function() {
       return ['topPhrase', 'leftPhrase', 'pattern', 'customValue'].includes(this.searchOrInputMethod)
     },
